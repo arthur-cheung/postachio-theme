@@ -85,9 +85,17 @@
             line-height: 1.2em;
             max-width: 100%;
             overflow: auto;
+            padding-left: 0.5em;
+            border-left: 10px solid silver !important;
         }
         blockquote > div{
             white-space: pre;
+        }
+        .post-content{
+            font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+        }
+        div.post div.post-body .post-content > div {
+            margin: 0.5em auto !important;
         }
         .post{
             max-width: 740px;
@@ -115,6 +123,10 @@
             max-height: 90vh;
             overflow: auto;
             padding-bottom: 2.5em;
+        }
+        div.mobile-nav ul li a:hover {
+            background-color: inherit;
+            color: inherit;
         }
         @media (max-width: 560px){
             div.post{
