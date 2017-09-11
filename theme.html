@@ -102,6 +102,20 @@
             letter-spacing: -0.003em;
             word-spacing: 0.1em;
         }
+        .header .logo,
+        .logo .icon{
+            height: 60%;
+        }
+        .logo .icon{
+            margin-bottom: -0.4em;
+            margin-left: -0.5em;
+            margin-right: 0.5em;
+        }
+        div.mobile-nav ul {
+            max-height: 90vh;
+            overflow: auto;
+            padding-bottom: 2.5em;
+        }
         @media (max-width: 560px){
             div.post{
                 padding: 0;
@@ -292,7 +306,7 @@
     </div>
 
     <div class="header">
-        <h1 class="logo"><a href="/">{{ site.name }}</a></h1>
+        <h1 class="logo"><img class="icon" src="https://raw.githubusercontent.com/arthur-cheung/postachio-theme/master/ac_icon.ico"/><a href="/">{{ site.name }}</a></h1>
         <ul class="nav">
             {% if pages %}
             {% for page in pages %}
