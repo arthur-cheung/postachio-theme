@@ -17,8 +17,9 @@
         | {{ site.name }}
     </title>
     {{ header_meta }}
-
+    <!-- The CSS below is out of the box from postach.io, but isn't ready for HTTPS, so I've copied file to github pages-->
     <link href="{{ assets('css/style.css') }}" rel="stylesheet" />
+    <!--<link type="text/css" href="https://arthur-cheung.github.io/arthur-learns-ootb-styles.css" rel="stylesheet"/>-->
 
     <!--[if IE 7]>
     <link href="http://postachio-static.s3-website-us-east-1.amazonaws.com/libs/fontawesome/css/font-awesome-ie7.min.css" rel="stylesheet">
@@ -229,7 +230,11 @@
     </div>
 
     <div class="mobile-nav">
-        <a href="#" class="toggle"><span class="typcn typcn-th-menu"></span></a>
+        <a href="#" class="toggle">
+            <div class="menu-slice slice-1"></div>
+            <div class="menu-slice slice-1"></div>
+            <div class="menu-slice slice-1"></div>
+        </a>
         <ul>
             {% if site.bio %}<li>
             <a href="/" class="bio-pic"><img src="{{ site.avatar }}" class="avatar" /></a>
