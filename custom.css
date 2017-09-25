@@ -25,7 +25,8 @@ body{
     right: 1em;
     background: rgba(2, 2, 2, 0.5);
     color: whitesmoke;
-    padding: 0.1em;
+    padding: 0.1em 0.2em;
+    border-radius: 2px;
 }
 .post-content > div > img{
     display: block;
@@ -136,3 +137,7 @@ div.mobile-nav a.toggle{
     margin: 6px 0;
     border-radius: 4px;
 }
+
+
+
+
