@@ -138,6 +138,10 @@ div.mobile-nav a.toggle{
     border-radius: 4px;
 }
 
-
+div.post-wrapper div.post-fragment div.post-image img {
+    height: 130%;
+    background-size: 50% 50%;
+    width: 100%;
+}
 
 
